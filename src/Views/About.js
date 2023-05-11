@@ -5,7 +5,7 @@ function About(){
         <div className="p-3">
             <h1 className="font-bold text-2xl mb-3">About us</h1>
             <p>
-                about page content
+                About page content
             </p>
         </div>
     )
