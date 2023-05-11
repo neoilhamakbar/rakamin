@@ -33,7 +33,7 @@ function Navigation(){
                     onClick={() => setShowMenu(!showMenu)}
                 />
             </span>
-            {transitions((item, key, props) => item && (<animated.div key={key} style={props}>?</animated.div>))
+            {transitions((item, key, props) => item && (<animated.div key={key} style={props} className=" bg-white top-0 left-0 w-4/5 h-full z-50 shadow">?</animated.div>))
             }
         </nav>
     )
